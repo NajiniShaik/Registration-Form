@@ -1,0 +1,131 @@
+.registration-form-app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.detailed-container {
+  max-width: 550px;
+  width: 90%;
+}
+
+@media (min-width: 768px) {
+  .detailed-container {
+    width: 80%;
+  }
+}
+
+.main-heading {
+  color: #ea580c;
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 54px;
+  }
+}
+
+.form-container {
+  padding: 60px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px #bfbfbf;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.label {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.input {
+  background-color: #ffffff;
+  color: #9aa5b1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 2px solid #9aa5b1;
+  outline: none;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.btn-card {
+  text-align: center;
+}
+
+.submit-btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  width: 110px;
+  padding: 10px 0px;
+  border-width: 0px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+}
+
+.result-container {
+  text-align: center;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px #bfbfbf;
+}
+
+.success-logo {
+  height: 60px;
+  width: 60px;
+}
+
+@media (min-width: 768px) {
+  .success-logo {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.msg {
+  color: #475569;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .msg {
+    font-size: 22px;
+  }
+}
+
+.btn {
+  background-color: #ea580c;
+  color: #ffffff;
+  padding: 10px 25px;
+  border-radius: 7px;
+  border-width: 0px;
+  outline: none;
+  font-size: 16px;
+}
+
+.active-input {
+  border: 2px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.err-msg {
+  color: #ff0b37;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  .err-msg {
+    font-size: 18px;
+  }
+}
